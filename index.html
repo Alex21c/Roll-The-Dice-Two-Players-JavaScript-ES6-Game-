@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Roll The Dice: Two Players JavaScript ES6 Game!</title>
+  </head>
+  <body>
+    <section id="sectionPlayer1" class="activePlayerHighlighting">
+      <h1>Player 1</h1>
+      <h2 class="currentPlayerHighScore">0</h2>
+      <div class="wrapperCurrent">
+        <span>CURRENT</span>
+        <span class="currentScore">0</span>
+      </div>
+    </section>
+    <section id="sectionPlayer2" class="inActivePlayerHighlighting">
+      <h1>Player 2</h1>
+      <h2 class="currentPlayerHighScore">0</h2>
+      <div class="wrapperCurrent">
+        <span>CURRENT</span>
+        <span class="currentScore">0</span>
+      </div>
+    </section>
+    <section id="sectionGameActionButtons">
+      <h1 class="hidden">Game action Buttons</h1>
+      <div class="buttonsUpper">
+        <input id="btnNewGame" type="button" value="🔄 NEW GAME">
+      </div>
+      <div>
+        <span class="dice"></span>
+      </div>
+      <div class="buttonsLower">
+        <input id="btnRollDice" type="button" value="🎲 ROLL DICE">
+        <input id="btnHold" type="button" value="🛑 HOLD">
+      </div>
+    </section>
+
+
+    <script src="index.js"></script>
+  </body>
+</html>

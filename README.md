@@ -3,7 +3,7 @@ JavaScript ES6 | Learning MERN Stack | Roll The Dice: Two Players JavaScript ES6
 
 Developed by:\
 Abhishek kumar\
-https://www.linkedin.com/in/abhishek-kumar-bb094427a/
+https://linktr.ee/alex21c
 
 Development TimeStamp\
 11 to 14, July 2023
